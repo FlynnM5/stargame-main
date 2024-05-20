@@ -2,7 +2,8 @@
     "name": "StarGame Main",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0"
     },
     "files": [
         "main.blocks",
@@ -10,7 +11,9 @@
         "README.md",
         "assets.json",
         "images.g.jres",
-        "images.g.ts"
+        "images.g.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -26,19 +29,19 @@
     "palette": [
         "#000000",
         "#FFFFFF",
-        "#FF2121",
-        "#FF93C4",
-        "#FF8135",
+        "#0A99C5",
+        "#85C3D2",
+        "#164D62",
+        "#373737",
+        "#030104",
+        "#B6B8B7",
+        "#6B6B6B",
+        "#434343",
+        "#E1E285",
+        "#6D6E16",
         "#FFF609",
-        "#249CA3",
-        "#78DC52",
-        "#003FAD",
-        "#87F2FF",
-        "#383838",
-        "#7A7A7A",
-        "#5C5C5C",
-        "#E5CDC4",
-        "#91463d",
-        "#000000"
+        "#FF8135",
+        "#D7C81D",
+        "#40C011"
     ]
 }
